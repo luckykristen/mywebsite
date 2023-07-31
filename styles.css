@@ -1,0 +1,106 @@
+body{
+    background-color: #FFE3E1;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 30px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1 {
+    color: #F675A8;
+    text-decoration: underline;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    color: #FF9494;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;    
+}
+
+.quote {
+    font-size: 13px;
+    padding-left: 70px;
+}
+
+.heading {
+    padding-left: 70px;
+}
+
+.bio {
+    padding-left: 30px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    padding-right: 70px;
+    background-color: #FF9494;
+    margin-right: 30px;
+}
+
+.item {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.item:hover {
+    background-color: #FFF5E4;
+    border-radius: 30px;
+}
+
+.lng {
+    padding: 10px;
+}
+
+.tab {
+    background-color: #D2DAFF;
+    border: 2px solid #FFD1D1;
+    margin-right: 30px;
+}
+
+@media all and (max-width:800px) {
+
+    body {
+        background-color: #8698d4;
+    }
+
+    .video {
+        width: 200px;
+    }
+
+    h3 {
+        color: #E966A0;
+    }
+}
+
+@media all and (max-width:500px) {
+
+    body {
+        background-color: #56b056;
+    }
+
+    .video {
+        width: 100px;
+    }
+
+    li {
+        font-size: 10px;
+    }
+
+    .photocontact {
+        width: 300px;
+    }
+}
+
+
+
